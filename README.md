@@ -1,8 +1,25 @@
-<p align="center">
-  <img src="docs/assets/hero.svg" alt="Pisz po ludzku. Twój sens. Twój głos. Lepszy tekst." width="100%">
-</p>
+# Pisz po ludzku by delta240mvt
 
-<h1 align="center">Pisz po ludzku</h1>
+<div align="center">
+
+<pre>
+██████╗ ██╗███████╗███████╗    ██████╗  ██████╗
+██╔══██╗██║██╔════╝╚══███╔╝    ██╔══██╗██╔═══██╗
+██████╔╝██║███████╗  ███╔╝     ██████╔╝██║   ██║
+██╔═══╝ ██║╚════██║ ███╔╝      ██╔═══╝ ██║   ██║
+██║     ██║███████║███████╗    ██║     ╚██████╔╝
+╚═╝     ╚═╝╚══════╝╚══════╝    ╚═╝      ╚═════╝
+
+██╗     ██╗   ██╗██████╗ ███████╗██╗  ██╗██╗   ██╗
+██║     ██║   ██║██╔══██╗╚══███╔╝██║ ██╔╝██║   ██║
+██║     ██║   ██║██║  ██║  ███╔╝ █████╔╝ ██║   ██║
+██║     ██║   ██║██║  ██║ ███╔╝  ██╔═██╗ ██║   ██║
+███████╗╚██████╔╝██████╔╝███████╗██║  ██╗╚██████╔╝
+╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝
+           N A T U R A L N A   P O L S Z C Z Y Z N A
+</pre>
+
+</div>
 
 <p align="center">
   <strong>Zamień maszynowy tekst w naturalną polszczyznę.</strong><br>
@@ -268,7 +285,7 @@ piszpoludzku/
 ├── scripts/package_skill.py
 ├── install.ps1             Instalacja w Windows
 ├── install.sh              Instalacja w macOS i Linux
-├── docs/                   Metodologia i baner
+├── docs/                   Metodologia
 ├── tests/                  Testy i scenariusze redakcji
 ├── CONTRIBUTING.md
 └── LICENSE

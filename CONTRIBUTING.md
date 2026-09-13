@@ -21,6 +21,6 @@ python scripts/package_skill.py
 git diff --check
 ```
 
-Po zmianie zawartości skilla dołącz aktualny `dist/piszpoludzku.zip`. Skrypt pakujący pomija cache Pythona, dodaje licencję i numer wersji oraz ustala jednakowy zapis końców linii. Baner i dokumentacja repo nie trafiają do paczki.
+Po zmianie zawartości skilla dołącz aktualny `dist/piszpoludzku.zip`. Skrypt pakujący pomija cache Pythona, dodaje licencję i numer wersji oraz ustala jednakowy zapis końców linii. Dokumentacja repo nie trafia do paczki.
 
 Jeśli zmieniasz wydanie, zaktualizuj `VERSION` i oznaczenie wersji w README. Zmiany kodu i dokumentacji podlegają MIT; przykłady w `tests/fixtures/` są udostępniane jako CC0 1.0.
