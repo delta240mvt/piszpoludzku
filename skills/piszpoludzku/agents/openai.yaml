@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pisz po ludzku"
+  short_description: "Naturalna redakcja polskich tekstów"
+  default_prompt: "Użyj $piszpoludzku, aby zredagować ten polski tekst bez zmiany znaczenia i głosu autora."

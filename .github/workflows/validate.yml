@@ -1,0 +1,26 @@
+name: Validate skill
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild portable ZIP
+        run: python scripts/package_skill.py
+      - name: Check committed package matches source
+        run: git diff --exit-code -- dist/piszpoludzku.zip
